@@ -91,7 +91,7 @@ char *error_permission(char **args);
 char *error_path_126(data_shell *datash);
 int get_error(data_shell *datash, int eval);
 
-* prints functiions */
+/*prints functiions */
 int _print(char *string);
 int _printerr(char *string);
 
