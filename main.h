@@ -79,5 +79,20 @@ char *_strtok(char str[], const char *delim);
 int _isdigit(const char *s);
 void rev_string(char *s);
 
+/*shell_error1, shell_error2 shell_error3*/
+char *strcat_cd(data_shell *, char *, char *, char *);
+char *error_get_cd(data_shell *datash);
+char *error_not_found(data_shell *datash);
+char *error_exit_shell(data_shell *datash);
+char *error_get_alias(char **args);
+char *error_env(data_shell *datash);
+char *error_syntax(char **args);
+char *error_permission(char **args);
+char *error_path_126(data_shell *datash);
+int get_error(data_shell *datash, int eval);
+
+* prints functiions */
+int _print(char *string);
+int _printerr(char *string);
 
 #endif/*MAIN_H BY OKORO IKECHUKWU MACDOUGLAS */
